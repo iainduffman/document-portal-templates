@@ -1,10 +1,14 @@
 html {
-  font-family: sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 body {
   margin: 0;
+  background: #ECECEC;
+  font-size: 14px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -22,6 +26,92 @@ section,
 summary {
   display: block;
 }
+
+.uk-button-primary.uk-width-1-1 {
+  margin-bottom: 1em !important;
+}
+
+.uk-navbar-nav>li>a {
+  color: #000 !important;
+  position: relative;
+  top: 4px;
+}
+
+.footer.uk-section-primary {
+  background: #555555;
+}
+
+img.logo {
+  position: relative;
+  top: 6px;
+}
+
+.uk-card-header h3, .uk-card-header h5 {
+  color: #3C3C3C !important;
+}
+
+span.uk-icon {
+  color: #1e87f0;
+}
+
+.cols ul {
+  border-right: 1px solid #e5e5e5;
+  padding-left: 0px;
+}
+
+.cols ul li {
+  list-style: none;
+  line-height: 1em;
+  padding-left: 0px;
+}
+
+.cols ul:last-child {
+  border-right: 0px solid #e5e5e5;
+}
+
+.custDetails {
+  list-style: none;
+  line-height: 0.8em;
+  padding-left: 0px;
+}
+
+.uk-width-expand.uk-first-column {
+  /* padding-left: 0px; */
+}
+
+input.uk-input {
+  margin-top: 8px;
+  border-radius: 3px;
+}
+
+.uk-button-primary {
+  background-color: #1e87f0;
+  color: #fff;
+  padding: 10px !important;
+  padding-left: 24px !important;
+  font-weight: 700 !important;
+  padding-right: 24px !important;
+  border: 1px solid transparent;
+  letter-spacing: 1px;
+  border-radius: 3px;
+}
+
+.uk-button-primary.negative {
+background: #DA5350;
+}
+
+.primaryHeader {
+  box-shadow: 0px -2px 38px -1px rgba(0,0,0,0.20);
+  position: relative;
+  z-index: 2;
+  background: #fff;
+}
+
+.uk-card.border {
+  border: 3px solid #2276C3;
+  border-radius: 6px;
+}
+
 audio,
 canvas,
 progress,
@@ -200,7 +290,7 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -220,6 +310,12 @@ img {
   padding-top: 0;
   margin-bottom: 1.45rem;
 }
+
+h1, h2, h3, h4 {
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 600 !important;
+}
+
 h1 {
   margin-left: 0;
   margin-right: 0;
@@ -229,9 +325,7 @@ h1 {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: #2276C3 !important;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
@@ -246,9 +340,7 @@ h2 {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: #2276C3 !important;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
@@ -263,9 +355,7 @@ h3 {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: #2276C3 !important;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
@@ -280,9 +370,7 @@ h4 {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: #2276C3 !important;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1rem;
@@ -297,9 +385,7 @@ h5 {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: #2276C3 !important;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 0.85028rem;
@@ -378,6 +464,7 @@ dd {
 }
 p {
   margin-left: 0;
+  font-size: 1em;
   margin-right: 0;
   margin-top: 0;
   padding-bottom: 0;
