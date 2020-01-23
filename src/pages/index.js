@@ -11,7 +11,7 @@ const IndexPage = () => (
 
     <h1 className="uk-margin-medium-bottom">All Components</h1>
     <ul>
-    <li><Link to="/components/">Component Listing</Link></li>
+    <li><Link className="uk-text-large" to="/components/">Component Listing</Link></li>
     </ul>
 
     <h1 className="uk-margin-medium-bottom">Example Templates</h1>
