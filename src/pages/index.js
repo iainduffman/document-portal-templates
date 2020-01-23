@@ -16,12 +16,12 @@ const IndexPage = () => (
 
     <h1 className="uk-margin-medium-bottom">Example Templates</h1>
     <ul>
-    <li><Link to="/renewal-premium/">Renew Premium</Link></li>
-    <li><Link to="/login/">Login</Link></li>
-    <li><Link to="/billing-details/">Billing Details</Link></li>
-    <li><Link to="/payment-options/">Payment Options</Link></li>
-    <li><Link to="/retrieve-policy/">Retrieve Policy</Link></li>
-    <li><Link to="/confirm-details/">Confirm Details</Link></li>
+    <li><Link className="uk-text-large" to="/renewal-premium/">Renew Premium</Link></li>
+    <li><Link className="uk-text-large" to="/login/">Login</Link></li>
+    <li><Link className="uk-text-large" to="/billing-details/">Billing Details</Link></li>
+    <li><Link className="uk-text-large" to="/payment-options/">Payment Options</Link></li>
+    <li><Link className="uk-text-large" to="/retrieve-policy/">Retrieve Policy</Link></li>
+    <li><Link className="uk-text-large" to="/confirm-details/">Confirm Details</Link></li>
     </ul>
 
     </div>
